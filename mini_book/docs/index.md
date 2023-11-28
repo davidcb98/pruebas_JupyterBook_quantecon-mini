@@ -24,4 +24,5 @@ Both lecture series are taken from a [more complete set of
 lectures](https://python.quantecon.org) on open source computing hosted by
 [QuantEcon](https://quantecon.org).
 
-
+```{tableofcontents}
+```

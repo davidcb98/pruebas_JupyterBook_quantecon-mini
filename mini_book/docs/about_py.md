@@ -13,6 +13,11 @@ kernelspec:
 
 # About Python
 
+```{contents}
+:local:
+:depth: 1
+```
+
 > \"Python has gotten sufficiently weapons grade that we don't descend
 > into R anymore. Sorry, R people. I used to be one of you but we no
 > longer descend into R.\" -- Chris Wiggins
@@ -133,7 +138,10 @@ It\'s either the dominant player or a major player in
 
 Its popularity in economics is also beginning to rise.
 
+Probamos a citar 
+
 ## Bibliography
 
 ```{bibliography} ../_bibliography/references.bib
+:style: plain 
 ```

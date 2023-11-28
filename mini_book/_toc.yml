@@ -1,7 +1,18 @@
-format: jb-article
+format: jb-book
 root: docs/index
-sections:
-- file: docs/about_py
-- file: docs/getting_started
-- file: docs/python_by_example
-- file: docs/learn_more
+# options:  
+#  numbered: True  # Number sections 
+parts:
+- caption: Part 1
+  numbered: True
+  maxdepth: 3     # The displayed Table of Contents will only have two levels
+  chapters:
+  - file: docs/about_py
+    sections:
+      - file: docs/getting_started
+- caption: Part 2
+  numbered: True
+  chapters:
+  - file: docs/python_by_example
+  - file: docs/notebooks.md
+  - file: docs/learn_more
